@@ -24,7 +24,7 @@ public class Categoria {
 	
 	@NotNull
 	@Size(max = 100)
-	private String nome;
+	private String nomeCategoria;
 	
 	@NotNull
 	@Size(max = 1000)
@@ -54,12 +54,12 @@ public class Categoria {
 		this.id = id;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getNomeCategoria() {
+		return nomeCategoria;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setNomeCategoria(String nomeCategoria) {
+		this.nomeCategoria = nomeCategoria;
 	}
 
 	public String getDescricao() {
